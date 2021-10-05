@@ -773,7 +773,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #ca490c;
+  background-color: #cf4707;
 }
 
 .tc-white {
@@ -781,12 +781,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-  background: #ca490c;
+  background: #cf4707;
   color: #ffffff !important;
 }
 
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
+  background: #9e3605 !important;
   color: #ffffff !important;
 }
 
@@ -1050,4 +1050,22 @@ h4 {
 
 .citation_author {
   font-size: 1.5rem;
+}
+
+.partner {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.partner_element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partner_element h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff !important;
 }
