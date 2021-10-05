@@ -653,7 +653,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: #000000 !important;
 }
 
 .container {
@@ -773,20 +773,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: #cf4707;
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: #ffda47 !important;
 }
 
 .btn-atomic-tangerine {
-  background: #f3976c;
+  background: #cf4707;
   color: #ffffff !important;
 }
 
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
+  background: #9e3605 !important;
   color: #ffffff !important;
 }
 
@@ -1050,4 +1050,22 @@ h4 {
 
 .citation_author {
   font-size: 1.5rem;
+}
+
+.partner {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.partner_element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partner_element h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff !important;
 }
